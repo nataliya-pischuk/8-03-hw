@@ -33,9 +33,10 @@
 1. Сделала push репозитория
    ![alt text](img/my_project.JPG)
 Содержимое файла .gitlab-ci.yml:
+
 stages:
-  - test
-  - build
+-- test
+ -- build
 
 test:
   stage: test
