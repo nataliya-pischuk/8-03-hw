@@ -32,23 +32,10 @@
   ## Решение 2
 1. Сделала push репозитория
    ![alt text](img/my_project.JPG)
+   
 Содержимое файла .gitlab-ci.yml:
 
-stages:
-  - test
-  - build
-
-test:
-  stage: test
-  image: golang:1.17
-  script: 
-   - go test .
-
-build:
-  stage: build
-  image: docker:latest
-  script:
-   - docker build .
+   ![alt text](img/kod.JPG)
 
  ![alt text](img/active.JPG)
 
