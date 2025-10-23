@@ -35,8 +35,8 @@
 Содержимое файла .gitlab-ci.yml:
 
 stages:
--- test
- -- build
+  - test
+  - build
 
 test:
   stage: test
@@ -49,4 +49,9 @@ build:
   image: docker:latest
   script:
    - docker build .
+
  ![alt text](img/active.JPG)
+
+ У меня возникает ошибка в процессе выполнения, не могу ее победить.
+ 
+  ![alt text](img/error.JPG)
