@@ -37,8 +37,8 @@
 
    ![alt text](img/kod.JPG)
 
- ![alt text](img/active.JPG)
+Успешное выполнения pipeline
+ ![alt text](img/commit.JPG)
 
- У меня возникает ошибка в процессе выполнения, не могу ее победить.
- 
-  ![alt text](img/error.JPG)
+  ![alt text](img/commit2.JPG)
+
